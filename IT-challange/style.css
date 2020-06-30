@@ -1,0 +1,47 @@
+
+button{
+    width: 150px;
+    height:40px;
+
+}
+
+#first{
+    
+    background-color: #feb41d  ;
+    height: 200px;
+     padding: 60px 20px ;
+    padding-left: 160px;
+    
+}
+#sec{
+    background-color: #4c5f6d;
+     height: 200px;
+    padding: 60px ;
+    padding-left: 160px;
+}
+
+#third {
+    background-color: #5e7c87;
+     height: 200px;
+    padding: 60px 20px ;
+    padding-left: 160px;
+}
+.btn-dark-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}
+.btn:hover{
+    background-color: black;
+    animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+    0% { transform:  rotate(0deg) ; }
+    25% { transform: rotate(5deg);}
+    50%  {transform: rotate(-5deg);}
+    75% { transform: rotate(5deg);}
+    100% { transform:rotate(0deg);}
+}
+h6{
+    color: white;
+}
